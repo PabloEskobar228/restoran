@@ -1,0 +1,50 @@
+body{
+	background: #800000;
+	font-family: helvetica san-serif;
+	max-width: 600px;
+	margin: 0 auto;
+}
+h1{
+	text-align: center;
+	font-size: 75px;
+	color: #cccccc;
+	font-family: 'Londrina Shadow', cursive;
+}
+h3{
+	text-align: center;
+	color: #cccccc;
+}
+div{
+	height:200px;
+	background-size: cover;
+	position: relative;
+	background-origin: 10px;
+	margin: 40px 0 0 0;
+}
+.first{
+	background-image:url("img/1.jpg");
+	height: 400px;
+}
+.second{
+	background-image:url("img/p2.jpg");
+	height: 400px;
+}
+.third{
+	background-image:url("img/p3.jpg");
+	height: 400px;
+}
+p{
+	color: #003325;
+	background: rgba(255,255,255,0.4);
+	position: absolute;
+	padding: 5px;
+	text-align: justify;
+	list-style: 18px;
+	height: 50px;
+	bottom: 0;
+	margin: 0;
+	width: 98.5%;
+}
+.price{
+	float: right;
+}
